@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+
+    <div class="container text-center col- sm md lg xl xxl">
+        <h1>Mohsin Maqbool's <br>
+            Stopwatch
+        </h1>
+
+        <div class="stopwatch">
+            <div class="display">
+                <div id="timer">
+                    <span id="hour" class="digit">00</span>
+                    <span class="txt">Hr</span>
+                    <span id="min" class="digit">00</span>
+                    <span class="txt">Min</span>
+                    <span id="sec" class="digit">00</span>
+                    <span class="txt">Sec</span>
+                    <span id="msec" class="digit">00</span>
+                    <span class="txt">Msec</span>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="disable" onclick="start()" btn-danger  btn-lg class="start">Start</button>
+                <button onclick="stop()" id="stop">Stop</button>
+                <button onclick="reset()" id="reset">Reset</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="mt-5">Beautiful Stopwatch</h1>
+        <div class="stopwatch">
+            <div class="display">
+                <div class="time">
+                    <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="startStop" class="btn btn-primary btn-lg">Start</button>
+                <button id="reset" class="btn btn-danger btn-lg">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
